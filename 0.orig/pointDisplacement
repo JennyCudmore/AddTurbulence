@@ -38,10 +38,10 @@ boundaryField
 
         motionType      solitary;
         n               (1 0 0);
-        waveHeight      0.02;
+        waveHeight      0.0417;
         initialDepth    0.15;
-        wavePeriod      2.0;
-        rampTime        2.0;
+        wavePeriod      1.3;
+        rampTime        1.3;
         wavePhase       0;
     }
 
