@@ -41,7 +41,7 @@ boundaryField
         waveHeight      0.06;
         initialDepth    0.15;
         wavePeriod      1.3;
-        rampTime        0.5;
+        rampTime        1.3;
         wavePhase       0;
     }
 
