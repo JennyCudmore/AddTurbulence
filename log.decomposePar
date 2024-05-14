@@ -9,9 +9,9 @@ Build  : _c39a0f64-20231220 OPENFOAM=2312 version=2312
 Arch   : "LSB;label=32;scalar=64"
 Exec   : decomposePar
 Date   : May 14 2024
-Time   : 13:31:51
+Time   : 13:41:14
 Host   : envpc512
-PID    : 76226
+PID    : 76671
 I/O    : uncollated
 Case   : /home/xkg506/OpenFOAM/xkg506-v2306/run/flumecylinders/waveMakerPiston/AddTurbulenceSolitary
 nProcs : 1
