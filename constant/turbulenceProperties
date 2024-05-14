@@ -14,10 +14,10 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-simulationType  laminar;
+//simulationType  laminar;
 
 
-/*simulationType      RAS;
+simulationType      RAS;
 
 density             variable;
 
@@ -29,6 +29,6 @@ RAS
 
     printCoeffs     on;
 }
-*/
+
 
 // ************************************************************************* //
