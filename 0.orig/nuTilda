@@ -41,12 +41,12 @@ boundaryField
         type            zeroGradient;
     }
 
-    leftWall
+    leftwall
     {
         type            zeroGradient;
     }
 
-    rightWall
+    rightwall
     {
         type            zeroGradient;
     }

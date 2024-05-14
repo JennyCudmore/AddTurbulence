@@ -45,13 +45,13 @@ boundaryField
         value           uniform 0;
     }
 
-    leftWall
+    leftwall
     {
         type            nutkWallFunction;
         value           uniform 0;
     }
 
-    rightWall
+    rightwall
     {
         type            nutkWallFunction;
         value           uniform 0;

@@ -58,6 +58,16 @@ solvers
         relTol          0;
     }
 
+    "(U|k|epsilon).*"
+    {
+        solver          smoothSolver;
+        smoother        symGaussSeidel;
+        tolerance       1e-06;
+        relTol          0;
+        minIter         1;
+    }
+
+/*
     U
     {
         solver          PBiCG;
@@ -65,7 +75,7 @@ solvers
         tolerance       1e-06;
         relTol          0;
     }
-
+*/
     R
     {
         solver          PBiCG;
@@ -92,6 +102,15 @@ PIMPLE
     nAlphaSubCycles 2;
     cAlpha          1;
 }
+
+relaxationFactors
+{
+    equations
+    {
+        ".*"                1;
+    }
+}
+
 
 
 // ************************************************************************* //

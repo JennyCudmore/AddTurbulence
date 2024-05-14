@@ -78,6 +78,25 @@ boundary
             (5 11 10 6)
         );
     }
+
+    leftwall
+    {
+        type wall;
+        faces
+        (
+            (0 4 7 3)
+        );
+    }
+    rightwall
+    {
+        type wall;
+        faces
+        (
+            (8 11 10 9)
+        );
+    }
+
+/*
     leftwall
     {
         type patch;
@@ -94,6 +113,8 @@ boundary
             (8 11 10 9)
         );
     }
+
+*/
     top
     {
         type wall;
