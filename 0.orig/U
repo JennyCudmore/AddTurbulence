@@ -18,6 +18,8 @@ dimensions      [0 1 -1 0 0 0 0];
 
 internalField   uniform (0 0 0);
 
+
+
 boundaryField
 {
     bottom1
@@ -62,6 +64,49 @@ boundaryField
           value         uniform (0 0 0);
     }
 }
+
+/*
+{
+    bottom1
+    {
+        type            noSlip;
+    }
+
+    bottom2
+    {
+        type            noSlip;
+    }
+
+    leftwall
+    {
+        type            movingWallVelocity;
+        value           uniform (0 0 0);
+    }
+
+    back
+    {
+        type            noSlip;
+    }
+
+    front
+    {
+        type            noSlip;
+    }
+
+    rightwall
+    {
+        type            waveVelocity;
+        value           uniform (0 0 0);
+    }
+
+    top
+    {
+          type          pressureInletOutletVelocity;
+          value         uniform (0 0 0);
+    }
+}
+*/
+
 
 
 // ************************************************************************* //

@@ -38,7 +38,7 @@ boundaryField
 
         motionType      solitary;
         n               (1 0 0);
-        waveHeight      0.06;
+        waveHeight      0.05;
         initialDepth    0.15;
         wavePeriod      1;
         rampTime        0.1;
@@ -66,6 +66,7 @@ boundaryField
         type            zeroGradient;
     }
 }
+
 
 
 // ************************************************************************* //
