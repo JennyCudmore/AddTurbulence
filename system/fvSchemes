@@ -34,6 +34,21 @@ divSchemes
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
 }
 
+laplacianSchemes
+{
+    default         Gauss linear orthogonal;
+}
+
+interpolationSchemes
+{
+    default         linear;
+}
+
+snGradSchemes
+{
+    default         orthogonal;
+}
+
 /*divSchemes
 {
     div(rhoPhi,U)   Gauss linearUpwind grad(U);
@@ -45,7 +60,7 @@ divSchemes
     div((muEff*dev(T(grad(U))))) Gauss linear;
     div(((rho*nuEff)*dev2(T(grad(U))))) Gauss linear;
 }
-*/
+
 
 laplacianSchemes
 {
@@ -61,6 +76,8 @@ snGradSchemes
 {
     default         corrected;
 }
+
+*/
 
 fluxRequired
 {
